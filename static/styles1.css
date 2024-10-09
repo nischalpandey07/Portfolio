@@ -41,24 +41,32 @@ header a {
 
 /* Hero Section */
 .hero {
-    background: url('hero.webp') center/cover no-repeat;
+    background: url('hero.WEBP') center/cover no-repeat;
     height: 100vh;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    transition: background 0.5s ease; /* Smooth background transition */
 }
 
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: #D3D3D3;
     animation: fadeIn 0.5s ease forwards; /* Fade-in effect */
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
+    text-shadow: 
+    1px 1px 0 rgba(0, 0, 0, 0.5), /* Black shadow */
+    -1px -1px 0 rgba(0, 0, 0, 0.5), 
+    1px -1px 0 rgba(0, 0, 0, 0.5), 
+    -1px 1px 0 rgba(0, 0, 0, 0.5); /* Creates an outline effect */
     animation: slideIn 0.5s ease forwards; /* Slide-in effect */
 }
 
