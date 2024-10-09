@@ -41,8 +41,7 @@ header a {
 
 /* Hero Section */
 .hero {
-    background: url('hero.png') center/cover no-repeat;
-    height: 100vh; /* Consider changing this for smaller screens */
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,20 +49,15 @@ header a {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    .hero {
-        height: 70vh; /* Adjust height for mobile devices */
-    }
-
-    .hero h1 {
-        font-size: 2.5rem; /* Smaller font size */
-    }
-
-    .hero p {
-        font-size: 1rem; /* Smaller font size */
-    }
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
 
 .cta {
     background-color: #f44336;
