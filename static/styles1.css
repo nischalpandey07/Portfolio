@@ -43,6 +43,7 @@ header a {
 .hero {
     background: url('hero.png') center/cover no-repeat;
     height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
