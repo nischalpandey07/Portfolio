@@ -1,4 +1,4 @@
-Sure! Here’s a README file that describes your portfolio website, including its structure, features, and how to set it up:
+
 
 ---
 
@@ -71,4 +71,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Feel free to modify any sections or add more information based on your preferences!
