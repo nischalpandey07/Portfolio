@@ -53,11 +53,13 @@ header a {
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    animation: fadeIn 0.5s ease forwards; /* Fade-in effect */
 }
 
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
+    animation: slideIn 0.5s ease forwards; /* Slide-in effect */
 }
 
 .cta {
@@ -83,6 +85,7 @@ header a {
 .about-us h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    animation: fadeIn 0.5s ease forwards; /* Fade-in effect */
 }
 
 .about-us p {
@@ -101,6 +104,7 @@ header a {
 #projects h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    animation: fadeIn 0.5s ease forwards; /* Fade-in effect */
 }
 
 .item-list {
@@ -127,6 +131,11 @@ header a {
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+    transition: transform 0.3s ease; /* Added transition for zoom effect */
+}
+
+.item-card:hover img {
+    transform: scale(1.05); /* Zoom effect on hover */
 }
 
 .item-card h3 {
@@ -149,6 +158,7 @@ header a {
 #contact h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    animation: fadeIn 0.5s ease forwards; /* Fade-in effect */
 }
 
 #contact .grid {
@@ -192,7 +202,6 @@ header a {
         align-items: center;
     }
 }
-
 
 /* Animations */
 @keyframes fadeIn {
