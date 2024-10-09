@@ -35,8 +35,13 @@ header .logo {
     font-weight: bold;
 }
 
+header a {
+    font-size: 1rem;
+}
+
 /* Hero Section */
 .hero {
+    background: url('hero.png') center/cover no-repeat;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -180,7 +185,26 @@ header .logo {
     color: #ccc;
 }
 
-/* Responsive Styles */
+/* Responsive Contact Section */
+@media (max-width: 768px) {
+    #contact .grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2.5rem;
@@ -196,10 +220,5 @@ header .logo {
 
     .item-card {
         max-width: 100%;
-    }
-
-    #contact .grid {
-        flex-direction: column;
-        align-items: center;
     }
 }
