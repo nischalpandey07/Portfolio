@@ -42,7 +42,7 @@ header a {
 /* Hero Section */
 .hero {
     background: url('hero.png') center/cover no-repeat;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
